@@ -1,0 +1,235 @@
+@font-face {
+  font-family: "Custom";
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+/*Design For Larger Screens*/
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: hsl(221, 100%, 96%);
+  font-family: "Custom";
+}
+
+.main-content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-one {
+  width: 20rem;
+  height: 25rem;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  z-index: 1;
+  box-shadow: 0px 1px 5px 0 #585656;
+}
+
+.card-one p {
+  max-width: 13rem;
+  font-size: 18px;
+}
+
+.score {
+  padding: 10px;
+  width: 8rem;
+  height: 8rem;
+  background: linear-gradient(
+    180deg,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score > span:last-child {
+  margin-top: -10px;
+}
+
+.small-texts {
+  color: hsl(241, 100%, 89%);
+}
+
+.big-texts {
+  color: #e0e0e0;
+}
+
+.result {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.card-one h1,
+.card-two h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-two {
+  width: 20rem;
+  height: 25rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 0 20px 20px 0;
+  margin-left: -1rem;
+  box-shadow: 0px 1px 5px 0 #585656;
+}
+
+.card-two h1 {
+  color: #0a0a50;
+  position: relative;
+  left: -70px;
+}
+
+.card-two div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.sum-descr {
+  margin-left: -3rem;
+}
+
+.react {
+  color: hsl(0, 100%, 67%);
+}
+
+.mem {
+  color: hsl(39, 100%, 56%);
+}
+
+.verb {
+  color: hsl(166, 100%, 37%);
+  margin-left: -3.7rem;
+}
+
+.vis {
+  color: hsl(234, 85%, 45%);
+  margin-left: -4rem;
+}
+
+.actual-score {
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+}
+
+.reaction {
+  background-color: #fde0e0;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.memory {
+  background-color: #fff3d1;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.verbal {
+  background-color: #e6fcff;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.visual {
+  background-color: #d5e3fd;
+  padding: 0.6rem;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.overall {
+  color: #8a92a8;
+}
+
+button {
+  border: none;
+  width: 220px;
+  border-radius: 20px;
+  background-color: hsl(224, 30%, 27%);
+  color: #fcffff;
+  font-size: 20px;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, rgb(65, 0, 82), #1400c4, #1400c4);
+  transform: translateY(4px);
+}
+
+button:focus-visible {
+  outline: 3px solid #0a0a40;
+  outline-offset: 2px;
+}
+
+footer {
+  margin-top: -30px;
+  text-align: center;
+}
+
+/**Design for smaller screens**/
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .card-one {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .card-one,
+  .card-two {
+    height: 21rem;
+    box-shadow: none;
+  }
+
+  .card-one p {
+    max-width: 18rem;
+  }
+
+  .card-two {
+    padding-top: 1rem;
+    border-radius: 0;
+    margin-top: -1rem;
+    margin-left: 0;
+  }
+
+  .card-two h1 {
+    margin-top: 10px;
+  }
+
+  footer {
+    margin: 1rem auto;
+  }
+}
