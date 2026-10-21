@@ -34,8 +34,8 @@ The challenge was to recreate a responsive summary component where users will be
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/responsive-results-summary-component-using-flexbox-6dOqt37gT-)
+- Live Site URL: [View live site](https://godson142.github.io/results-summary-component/)
 
 ## My process
 
@@ -66,5 +66,5 @@ I used GitHub Copilot to review my code and check whether there were any errors 
 
 ## Author
 
-- Website - [Godson](https://www.your-site.com)
+- Website - [Godson](https://godson142.github.io/results-summary-component/)
 - Frontend Mentor - [@Godson142](https://www.frontendmentor.io/profile/Godson142)
