@@ -19,7 +19,8 @@ body {
 }
 
 .card-one {
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;
   height: 25rem;
   background: linear-gradient(
     to bottom,
@@ -37,7 +38,7 @@ body {
 
 .card-one p {
   max-width: 13rem;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 
 .score {
@@ -57,6 +58,16 @@ body {
 }
 
 .score > span:last-child {
+  margin-top: -10px;
+}
+
+.great {
+  font-size: 1.5625rem;
+  font-weight: 700;
+}
+
+.message {
+  text-align: center;
   margin-top: -10px;
 }
 
@@ -80,7 +91,8 @@ body {
 }
 
 .card-two {
-  width: 20rem;
+  width: 100%;
+  max-width: 20rem;
   height: 25rem;
   background-color: #fff;
   display: flex;
@@ -132,32 +144,25 @@ body {
   color: hsl(224, 30%, 27%);
 }
 
-.reaction {
-  background-color: #fde0e0;
+.sum-categories {
   padding: 0.6rem;
   border-radius: 5px;
   width: 200px;
+}
+.reaction {
+  background-color: #fde0e0;
 }
 
 .memory {
   background-color: #fff3d1;
-  padding: 0.6rem;
-  border-radius: 5px;
-  width: 200px;
 }
 
 .verbal {
   background-color: #e6fcff;
-  padding: 0.6rem;
-  border-radius: 5px;
-  width: 200px;
 }
 
 .visual {
   background-color: #d5e3fd;
-  padding: 0.6rem;
-  border-radius: 5px;
-  width: 200px;
 }
 
 .overall {
